@@ -39,7 +39,7 @@ body{
 .contenedoravion{
     align-content: center
 }
-.NombreAgencia{
+.NombreAgencia,.Unsplash{
     color: var(--colorcito);
 }
 .navegador{
@@ -86,7 +86,6 @@ body{
     margin-top: 140px;
     background-color: rgb(250, 250, 250);
     display: grid;
-     
 }
 .textoCentralPrecio{
     background-color: rgb(237, 64, 66);
@@ -104,99 +103,44 @@ body{
 .textoCentralText{
     font-size: 10px;
     text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.Unsplash{
-    color: var(--colorcito);
+    margin: 0px 10% 0px 10%;
 }
 .textoCentralBoton{
     background-color: var(--colorcito);
     margin-right: 20%;
     margin-left: 20%;
     padding-top: 20px;
-    /* intente colocar el vertical-align:middle ; pero no funciono por alguna razon , asi que lo reemplace con un padding-top*/
     height: 40px;
     text-align: center;
-
+    color: white;
 }
 .ContenedorTitulosDeAbajo{
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    gap: 56px;
 }
 .titulodeabajo{
     padding: 5px;
     background-color: var(--colorcito);
-    margin-right: 28px;
-    margin-left: 28px;
     width: 150px;
     text-align: center;
     margin-bottom: 0;
     align-items: end;
-    /* si coloco 150% en vez de 150 se pone bien extraña la cosa */
-    
+    color: white;
 }
-.titulodeabajoF{
-        padding: 5px;
-        background-color: var(--colorcito);
-        margin-right: 28px;
-        width: 150px;
-        text-align: center;
-        margin-bottom: 0;
-        align-items: end;
-        /* si coloco 150% en vez de 150 se pone bien extraña la cosa */
-}
-.titulodeabajoL{
-    padding: 5px;
-    align-content: end;
-        background-color: var(--colorcito);
-        margin-left: 28px;
-        width: 150px;
-        text-align: center;
-        margin-bottom: 0;
-        align-items: end;
-        /* si coloco 150% en vez de 150 se pone bien extraña la cosa */
-}
-
 .Contenedordescripcionpaises{
     display: flex;
-    margin-top: 0;
-    margin-left: 10%;
-    margin-right: 10%;
-   margin-bottom: 200px;
+    margin:0px 10% 200px 10% ;
+   gap: 66px;
 }
 .descripcionpaises{
     background-color: var(--colorcito);
-    margin-right: 28px;
-    margin-left: 38px;
     width: 150px;
     text-align: center;
     margin-bottom: 0;
     align-items: end;
-    height: 119px;
-    /* si coloco 150% en vez de 150 se pone bien extraña la cosa */
-    
-}
-.descripcionpaisesF{
-    background-color: var(--colorcito);
-    margin-right: 28px;
-    width: 150px;
-    text-align: center;
-    margin-bottom: 0;
-    height: 119px;
-    /* si coloco 150% en vez de 150 se pone bien extraña la cosa */
-}
-.descripcionpaisesL{
-    background-color: var(--colorcito);
-    margin-left: 38px;
-    width: 150px;
-    text-align: center;
-    margin-bottom: 0;
-    height: 119px;
-    /* si coloco 150% en vez de 150 se pone bien extraña la cosa */
+    height: 119px;    
 }
 .ciudades{
     font-size: 10px;
@@ -215,13 +159,10 @@ body{
     padding: 5px;
     font-size: 10px;
     text-align: center;
-
 }
 .Contenedoriconos{
     display: flex;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    width: 100%;
+    margin: 200px 0px 100px 0;
 }
 .iconos{
     width: 12.5%;
@@ -232,9 +173,6 @@ body{
     border-right-style: solid;
     border-color: rgb(208, 210, 211);
     text-align: center;
-    justify-content: center;
-    vertical-align: middle;
-    
 }
 .footer{
     display: flex;
@@ -254,12 +192,4 @@ body{
 .Copyrightcolor{
     color: var(--colorcito);
     font-size: 10px;
-
 }
-
-
-
-
-
-
-
