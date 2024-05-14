@@ -4,109 +4,509 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes por Colombia</title>
-    <link rel="stylesheet" href="./css/taller3.css">
+    <link rel="stylesheet" href="./css/taller4.css">
+
 </head>
 <body>
-    <div class="DivisionExternaImagenResto" >
-        <div class="imgfondo">
-            <div class="Divisionlogo">
-                <div class="DisionlogoAvionTexto" >
-                    <div class="contenedoravion"><img class="imagenavion" src="./recurso/imgavion.png" alt=""></div>
-                    <div>
-                        <p><strong class="NombreAgencia">TRAVEL</strong> <br>
-                            <small>the best agency</small></p>
-                    </div>
-                </div>
-                <div>
-                </div>
-                <div class="navegador">
-                    <div class="navegadores" id="navegadorSeleccionado"><p>HOME</p></div>
-                    <div class="navegadores"><P>SERVICE</P></div>
-                    <div class="navegadores"><P>EVENTS</P></div>
-                    <div class="navegadores"><P>ABOUTS US</P></div>
-                    <div class="navegadores"><P>CONTACT</P></div>
-                </div>
-            </div>
-            <div class="Divisionmedia">
-                <div class="Contenedorflechaiz"><img src="./recurso/flechaizquierda.png" alt="flechalh"></div>
-                <div class="ContenedortextoCentral">
-                    <div class="textoCentral">
-                        <div><h2 class="textoCentralPrecio">$8,450</h2></div>
-                        <div><h3 class="textoCentralTitulo">Venice, Italy</h3></div>
-                        <div><p class="textoCentralText">Travel is free responsive template by templatemo. <br>
-                        all images used in this template are from <strong class="Unsplash">Unsplash</strong></p></div>
-                        <div><p class="textoCentralBoton">PRE-BOOKING</p></div>
-                    </div>
-                </div>
-                <div class="Contenedorflechadr"><img src="./recurso/flechaderecha.png" alt="flecharh" class="flecharh"></div>
-            </div>
-            <div class="ContenedorTitulosDeAbajo">
-                <div><p class="titulodeabajo">ITALY </p></div>
-                <div><p  class="titulodeabajo">FRANCE</p></div>
-                <div><p  class="titulodeabajo">GERMANY</p></div>
-                <div><p  class="titulodeabajo">SPAIN</p></div>
-            </div>
-        </div>
-        <div class="Contenedordescripcionpaises">
-            <div class="descripcionpaises">
-                <div>
-                    <img src="./recurso/italyimg.PNG" alt="italy">
-                </div>
-                <div class="ciudades"><p>Rome,Milan,Naples</p> </div>
-                <div class="descripcionHotel"><p>SILVER HOTEL, 4 NIGHTS, 5 STARS</p></div>
-                <div class="Preciociudad">$1,800 BOOK NOW</div>
-            </div>
-            <div class="descripcionpaises">
-                <div>
-                    <img src="./recurso/imgfrancia.PNG" alt="">
-                </div>
-                <div  class="ciudades"><p>Paris, Marseille, Lyon</p></div>
-                <div class="descripcionHotel"><p>NEW PALACE, 5 NIGHTS, 5 STARS</p></div>
-                <div class="Preciociudad">$2,300 BOOK NOW</div>
-            </div>
-            <div class="descripcionpaises">
-                <div>
-                    <img src="./recurso/imggermany.PNG" alt="">
-                </div>
-                <div class="ciudades"><p>Berlin, Hamburg, Munich</p></div>
-                <div class="descripcionHotel"><p>LUXE HOTEL, 5 NIGHTS, 6 STARS</p></div>
-                <div class="Preciociudad">$3,100 BOOK NOW</div>
-            </div>
-            <div class="descripcionpaises">
-                <div>
-                    <img src="./recurso/imgspain.PNG" alt="">
-                </div>
-                <div class="ciudades"><p>Madrid, Bercelona, Valencia</p></div>
-                <div class="descripcionHotel"><p>GOOD HOTEL, 4 NIGHTS, 6 STARS
-                </p></div>
-                <div class="Preciociudad">$4,800 BOOK NOW</div>
-            </div>
-        </div>
-    </div>
-    <div class="Contenedoriconos">
-        <div class="iconos"></div>
-        <div class="iconos"><img src="./recurso/iconocohete.png" alt="cohete"></div>
-        <div class="iconos"><img src="./recurso/iconopalmera.png" alt="palmera"></div>
-        <div class="iconos"><img src="./recurso/iconodelfin.PNG" alt="delfin"></div>
-        <div class="iconos"><img src="./recurso/iconocohete.png" alt="cohete"></div>
-        <div class="iconos"><img src="./recurso/iconopalmera.png" alt="palmera"></div>
-        <div class="iconos"><img src="./recurso/iconodelfin.PNG" alt="delfin"></div>
-        <div class="iconos"></div>
-    </div>
-    <div class="footer">
-        <div class="DisionlogoAvionTextofooter" >
-            <div class="contenedoravion"><img class="imagenavion" src="./recurso/imgavion.png" alt=""></div>
-            <div>
-                <p><strong class="NombreAgencia">TRAVEL</strong> <br>
-                <small>the best agency</small></p>
-            </div>
-        </div>
-        <div>
-            <p class="Copyright">Copyright O 2084 <small class="Copyrightcolor">Company Name</small> - <small class="Copyrightcolor">Travel by templatemo</small> </p>
-        </div>
-        <div>
-            <img src="./recurso/redessociales.PNG" alt="redesSociales">
-        </div>
-    </div>
+    <script>
+            var div_divisionExternaImagenResto=document.createElement("div")
+            div_divisionExternaImagenResto.setAttribute("class","DivisionExternaImagenResto")
+
+                var div_imgfondo=document.createElement("div")
+                div_imgfondo.setAttribute("class","imgfondo")
+
+                    var div_Divisionlogo=document.createElement("div")
+                    div_Divisionlogo.setAttribute("class","Divisionlogo")
+
+                        var div_DisionlogoAvionTexto=document.createElement("div")
+                        div_DisionlogoAvionTexto.setAttribute("class","DisionlogoAvionTexto")
+
+                            var div_contenedoravion=document.createElement("div")
+                            div_contenedoravion.setAttribute("class","contenedoravion")
+                            var img_imagenavion=document.createElement("img")
+                            img_imagenavion.setAttribute("class","imagenavion")
+                            img_imagenavion.src="./recurso/imgavion.png"
+                            img_imagenavion.alt="avion"
+                            div_contenedoravion.appendChild(img_imagenavion)
+
+                            var div_contenedor_NombreAgencia=document.createElement("div")
+
+                                var p_NombreAgencia=document.createElement("p")
+                                    var strong_NombreAgencia=document.createElement("strong")
+                                    strong_NombreAgencia.setAttribute("class","NombreAgencia")
+                                    strong_NombreAgencia.appendChild(document.createTextNode("TRAVEL"))
+                                    
+                                    var br_agency=document.createElement("br")
+
+                                    var small_the_best_agency=document.createElement("small")
+                                    small_the_best_agency.appendChild(document.createTextNode("the best agency"))
+                                
+                                p_NombreAgencia.appendChild(strong_NombreAgencia)
+                                p_NombreAgencia.appendChild(br_agency)
+                                p_NombreAgencia.appendChild(small_the_best_agency)
+
+                            div_contenedor_NombreAgencia.appendChild(p_NombreAgencia)
+                        
+                        div_DisionlogoAvionTexto.appendChild(div_contenedoravion)
+                        div_DisionlogoAvionTexto.appendChild(div_contenedor_NombreAgencia)
+
+
+                        var div_navegador=document.createElement("div")
+                        div_navegador.setAttribute("class","navegador")
+                        
+                            var div_navegadores1=document.createElement("div")
+                            div_navegadores1.setAttribute("class","navegadores")
+                    
+                                var p_home=document.createElement("p")
+                                p_home.appendChild(document.createTextNode("HOME"))
+                            
+                            div_navegadores1.appendChild(p_home)
+
+                            var div_navegadores2=document.createElement("div")
+                            div_navegadores2.setAttribute("class","navegadores")
+                    
+                                var p_SERVICE=document.createElement("p")
+                                p_SERVICE.appendChild(document.createTextNode("SERVICE"))
+                            
+                            div_navegadores2.appendChild(p_SERVICE)
+
+                            var div_navegadores2=document.createElement("div")
+                            div_navegadores2.setAttribute("class","navegadores")
+                    
+                                var p_SERVICE=document.createElement("p")
+                                p_SERVICE.appendChild(document.createTextNode("SERVICE"))
+                            
+                            div_navegadores2.appendChild(p_SERVICE)
+                            
+                            var div_navegadores3=document.createElement("div")
+                            div_navegadores3.setAttribute("class","navegadores")
+                    
+                                var p_EVENTS=document.createElement("p")
+                                p_EVENTS.appendChild(document.createTextNode("EVENTS"))
+                            
+                            div_navegadores3.appendChild(p_EVENTS)
+
+                            var div_navegadores4=document.createElement("div")
+                            div_navegadores4.setAttribute("class","navegadores")
+                    
+                                var p_ABOUTS_US=document.createElement("p")
+                                p_ABOUTS_US.appendChild(document.createTextNode("ABOUTS US"))
+                            
+                            div_navegadores4.appendChild(p_ABOUTS_US)
+
+                            var div_navegadores5=document.createElement("div")
+                            div_navegadores5.setAttribute("class","navegadores")
+                    
+                                var p_CONTACT=document.createElement("p")
+                                p_CONTACT.appendChild(document.createTextNode("CONTACT"))
+                            
+                            div_navegadores5.appendChild(p_CONTACT)
+
+
+                        
+                        div_navegador.appendChild(div_navegadores1)
+                        div_navegador.appendChild(div_navegadores2)
+                        div_navegador.appendChild(div_navegadores3)
+                        div_navegador.appendChild(div_navegadores4)
+                        div_navegador.appendChild(div_navegadores5)
+
+
+                    div_Divisionlogo.appendChild(div_DisionlogoAvionTexto)
+                    div_Divisionlogo.appendChild(div_navegador)
+                    
+
+                    var div_Divisionmedia=document.createElement("div")
+                    div_Divisionmedia.setAttribute("class","Divisionmedia")
+
+                        var div_Contenedorflechaiz=document.createElement("div")
+                        div_Contenedorflechaiz.setAttribute("class","Contenedorflechaiz")
+                        var img_flecha =document.createElement("img")
+                        img_flecha.src="./recurso/flechaizquierda.png"
+                        img_flecha.alt="flechalh"
+                        div_Contenedorflechaiz.appendChild(img_flecha)
+
+                        var div_ContenedortextoCentral=document.createElement("div")
+                        div_ContenedortextoCentral.setAttribute("class","ContenedortextoCentral")
+
+                            var div_textoCentral=document.createElement("div")
+                            div_textoCentral.setAttribute("class","textoCentral")
+
+                                var div_1=document.createElement("div")
+
+                                    var div_h2=document.createElement("h2")
+                                    div_h2.setAttribute("class","textoCentralPrecio")
+                                    div_h2.appendChild(document.createTextNode("$8,450"))
+                                
+                                div_1.appendChild(div_h2)
+
+                                var div_2=document.createElement("div")
+
+                                    var div_h3=document.createElement("h2")
+                                    div_h3.setAttribute("class","textoCentralTitulo")
+                                    div_h3.appendChild(document.createTextNode("Venice, Italy"))
+                                
+                                div_2.appendChild(div_h3)
+
+                                var div_3=document.createElement("div")
+
+                                    var div_textoCentral_p=document.createElement("p")
+                                    div_textoCentral_p.setAttribute("class","textoCentralText")
+                                    div_textoCentral_p.appendChild(document.createTextNode("Travel is free responsive template by templatemo."))
+                                    var br_=document.createElement("br")
+                                    div_textoCentral_p.appendChild(br_)
+                                    div_textoCentral_p.appendChild(document.createTextNode("all images used in this template are from."))
+                                        var strong_Unsplash=document.createElement("strong")
+                                        strong_Unsplash.setAttribute("class","Unsplash")
+                                        strong_Unsplash.appendChild(document.createTextNode("Unsplash"))
+                                    
+                                    div_textoCentral_p.appendChild(strong_Unsplash)
+                                    
+                                
+                                div_3.appendChild(div_textoCentral_p)
+
+                                var div_4=document.createElement("div")
+
+                                    var div_boton=document.createElement("p")
+                                    div_boton.setAttribute("class","textoCentralBoton")
+                                    div_boton.appendChild(document.createTextNode("PRE-BOOKING"))
+                                
+                                div_4.appendChild(div_boton)
+                            
+                            div_textoCentral.appendChild(div_1)
+                            div_textoCentral.appendChild(div_2)
+                            div_textoCentral.appendChild(div_3)
+                            div_textoCentral.appendChild(div_4)
+
+                        div_ContenedortextoCentral.appendChild(div_textoCentral)
+
+                        var div_Contenedorflechadr= document.createElement("div")
+                        div_Contenedorflechadr.setAttribute("class","Contenedorflechadr")
+
+                            var img_flechadr=document.createElement("img")
+                            img_flechadr.src="./recurso/flechaderecha.png"
+                            img_flechadr.alt="flecharh"
+                        
+                        div_Contenedorflechadr.appendChild(img_flechadr)
+
+                    
+                    div_Divisionmedia.appendChild(div_Contenedorflechaiz)
+                    div_Divisionmedia.appendChild(div_ContenedortextoCentral)
+                    div_Divisionmedia.appendChild(div_Contenedorflechadr)
+
+
+                    var div_ContenedorTitulosDeAbajo=document.createElement("div")
+                    div_ContenedorTitulosDeAbajo.setAttribute("class","ContenedorTitulosDeAbajo")
+
+                        var div_p1=document.createElement("div")
+                            var p_titulodeabajo1=document.createElement("p")
+                            p_titulodeabajo1.setAttribute("class","titulodeabajo")
+                            p_titulodeabajo1.appendChild(document.createTextNode("ITALY"))
+                        
+                        div_p1.appendChild(p_titulodeabajo1)
+
+                        var div_p2=document.createElement("div")
+                            var p_titulodeabajo2=document.createElement("p")
+                            p_titulodeabajo2.setAttribute("class","titulodeabajo")
+                            p_titulodeabajo2.appendChild(document.createTextNode("FRANCE"))
+                        
+                        div_p2.appendChild(p_titulodeabajo2)
+
+                        var div_p3=document.createElement("div")
+                            var p_titulodeabajo3=document.createElement("p")
+                            p_titulodeabajo3.setAttribute("class","titulodeabajo")
+                            p_titulodeabajo3.appendChild(document.createTextNode("GERMANY"))
+                        
+                        div_p3.appendChild(p_titulodeabajo3)
+
+                        var div_p4=document.createElement("div")
+                            var p_titulodeabajo4=document.createElement("p")
+                            p_titulodeabajo4.setAttribute("class","titulodeabajo")
+                            p_titulodeabajo4.appendChild(document.createTextNode("SPAIN"))
+                        
+                        div_p4.appendChild(p_titulodeabajo4)
+                    
+                    div_ContenedorTitulosDeAbajo.appendChild(div_p1)
+                    div_ContenedorTitulosDeAbajo.appendChild(div_p2)
+                    div_ContenedorTitulosDeAbajo.appendChild(div_p3)
+                    div_ContenedorTitulosDeAbajo.appendChild(div_p4)
+
+                div_imgfondo.appendChild(div_Divisionlogo)
+                div_imgfondo.appendChild(div_Divisionmedia)
+                div_imgfondo.appendChild(div_ContenedorTitulosDeAbajo)
+
+                var div_Contenedordescripcionpaises=document.createElement("div")
+                div_Contenedordescripcionpaises.setAttribute("class","Contenedordescripcionpaises")
+
+                    var div_descripcionpaises1=document.createElement("div")
+                    div_descripcionpaises1.setAttribute("class","descripcionpaises")
+
+                        var div_contenedor_imagen_descripcionpaises1=document.createElement("div")
+                        div_contenedor_imagen_descripcionpaises1.setAttribute("class","contenedor_imagen_descripcionpaises")
+                        var div_imgpais1=document.createElement("img")
+                        div_imgpais1.src="./recurso/italyimg.PNG"
+                        div_imgpais1.alt="italy"
+                        div_contenedor_imagen_descripcionpaises1.appendChild(div_imgpais1)
+
+                        var div_ciudades1=document.createElement("div")
+                        div_ciudades1.setAttribute("class","ciudades")
+                        var div_ciudades1p=document.createElement("p")
+                        div_ciudades1p.appendChild(document.createTextNode("Rome,Milan,Naples"))
+                        div_ciudades1.appendChild(div_ciudades1p)
+
+                        var div_descripcionHotel1=document.createElement("div")
+                        div_descripcionHotel1.setAttribute("class","descripcionHotel")
+                        var div_descripcionHotel1p=document.createElement("p")
+                        div_descripcionHotel1p.appendChild(document.createTextNode("SILVER HOTEL, 4 NIGHTS, 5 STARS"))
+                        div_descripcionHotel1.appendChild(div_descripcionHotel1p)
+
+                        var div_Preciociudad1=document.createElement("div")
+                        div_Preciociudad1.setAttribute("class","Preciociudad")
+                        div_Preciociudad1.appendChild(document.createTextNode("$1,800 BOOK NOW"))
+
+                    div_descripcionpaises1.appendChild(div_contenedor_imagen_descripcionpaises1)
+                    div_descripcionpaises1.appendChild(div_ciudades1)
+                    div_descripcionpaises1.appendChild(div_descripcionHotel1)
+                    div_descripcionpaises1.appendChild(div_Preciociudad1)
+
+                    var div_descripcionpaises2=document.createElement("div")
+                    div_descripcionpaises2.setAttribute("class","descripcionpaises")
+
+                        var div_contenedor_imagen_descripcionpaises2=document.createElement("div")
+                        div_contenedor_imagen_descripcionpaises2.setAttribute("class","contenedor_imagen_descripcionpaises")
+                        var div_imgpais2=document.createElement("img")
+                        div_imgpais2.src="./recurso/imgfrancia.PNG"
+                        div_imgpais2.alt="italy"
+                        div_contenedor_imagen_descripcionpaises2.appendChild(div_imgpais2)
+
+                        var div_ciudades2=document.createElement("div")
+                        div_ciudades2.setAttribute("class","ciudades")
+                        var div_ciudades2p=document.createElement("p")
+                        div_ciudades2p.appendChild(document.createTextNode("Paris, Marseille, Lyon"))
+                        div_ciudades2.appendChild(div_ciudades2p)
+
+                        var div_descripcionHotel2=document.createElement("div")
+                        div_descripcionHotel2.setAttribute("class","descripcionHotel")
+                        var div_descripcionHotel2p=document.createElement("p")
+                        div_descripcionHotel2p.appendChild(document.createTextNode("NEW PALACE, 5 NIGHTS, 5 STARS"))
+                        div_descripcionHotel2.appendChild(div_descripcionHotel2p)
+
+                        var div_Preciociudad2=document.createElement("div")
+                        div_Preciociudad2.setAttribute("class","Preciociudad")
+                        div_Preciociudad2.appendChild(document.createTextNode("$2,300 BOOK NOW"))
+
+                    div_descripcionpaises2.appendChild(div_contenedor_imagen_descripcionpaises2)
+                    div_descripcionpaises2.appendChild(div_ciudades2)
+                    div_descripcionpaises2.appendChild(div_descripcionHotel2)
+                    div_descripcionpaises2.appendChild(div_Preciociudad2)
+
+                    var div_descripcionpaises3=document.createElement("div")
+                    div_descripcionpaises3.setAttribute("class","descripcionpaises")
+
+                        var div_contenedor_imagen_descripcionpaises3=document.createElement("div")
+                        div_contenedor_imagen_descripcionpaises3.setAttribute("class","contenedor_imagen_descripcionpaises")
+                        var div_imgpais3=document.createElement("img")
+                        div_imgpais3.src="./recurso/imggermany.PNG" 
+                        div_imgpais3.alt="italy"
+                        div_contenedor_imagen_descripcionpaises3.appendChild(div_imgpais3)
+
+                        var div_ciudades3=document.createElement("div")
+                        div_ciudades3.setAttribute("class","ciudades")
+                        var div_ciudades3p=document.createElement("p")
+                        div_ciudades3p.appendChild(document.createTextNode("Berlin, Hamburg, Munich"))
+                        div_ciudades3.appendChild(div_ciudades3p)
+
+                        var div_descripcionHotel3=document.createElement("div")
+                        div_descripcionHotel3.setAttribute("class","descripcionHotel")
+                        var div_descripcionHotel3p=document.createElement("p")
+                        div_descripcionHotel3p.appendChild(document.createTextNode("LUXE HOTEL, 5 NIGHTS, 6 STARS"))
+                        div_descripcionHotel3.appendChild(div_descripcionHotel3p)
+
+                        var div_Preciociudad3=document.createElement("div")
+                        div_Preciociudad3.setAttribute("class","Preciociudad")
+                        div_Preciociudad3.appendChild(document.createTextNode("$3,100 BOOK NOW"))
+
+                    div_descripcionpaises3.appendChild(div_contenedor_imagen_descripcionpaises3)
+                    div_descripcionpaises3.appendChild(div_ciudades3)
+                    div_descripcionpaises3.appendChild(div_descripcionHotel3)
+                    div_descripcionpaises3.appendChild(div_Preciociudad3)
+
+                    var div_descripcionpaises4=document.createElement("div")
+                    div_descripcionpaises4.setAttribute("class","descripcionpaises")
+
+                        var div_contenedor_imagen_descripcionpaises4=document.createElement("div")
+                        div_contenedor_imagen_descripcionpaises4.setAttribute("class","contenedor_imagen_descripcionpaises")
+                        var div_imgpais4=document.createElement("img")
+                        div_imgpais4.src="./recurso/imggermany.PNG" 
+                        div_imgpais4.alt="italy"
+                        div_contenedor_imagen_descripcionpaises4.appendChild(div_imgpais4)
+
+                        var div_ciudades4=document.createElement("div")
+                        div_ciudades4.setAttribute("class","ciudades")
+                        var div_ciudades4p=document.createElement("p")
+                        div_ciudades4p.appendChild(document.createTextNode("Berlin, Hamburg, Munich"))
+                        div_ciudades4.appendChild(div_ciudades4p)
+
+                        var div_descripcionHotel4=document.createElement("div")
+                        div_descripcionHotel4.setAttribute("class","descripcionHotel")
+                        var div_descripcionHotel4p=document.createElement("p")
+                        div_descripcionHotel4p.appendChild(document.createTextNode("LUXE HOTEL, 5 NIGHTS, 6 STARS"))
+                        div_descripcionHotel4.appendChild(div_descripcionHotel4p)
+
+                        var div_Preciociudad4=document.createElement("div")
+                        div_Preciociudad4.setAttribute("class","Preciociudad")
+                        div_Preciociudad4.appendChild(document.createTextNode("$3,100 BOOK NOW"))
+
+                    div_descripcionpaises4.appendChild(div_contenedor_imagen_descripcionpaises4)
+                    div_descripcionpaises4.appendChild(div_ciudades4)
+                    div_descripcionpaises4.appendChild(div_descripcionHotel4)
+                    div_descripcionpaises4.appendChild(div_Preciociudad4)
+
+                div_Contenedordescripcionpaises.appendChild(div_descripcionpaises1)
+                div_Contenedordescripcionpaises.appendChild(div_descripcionpaises2)
+                div_Contenedordescripcionpaises.appendChild(div_descripcionpaises3)
+                div_Contenedordescripcionpaises.appendChild(div_descripcionpaises4)
+
+
+            div_divisionExternaImagenResto.appendChild(div_imgfondo);
+            div_divisionExternaImagenResto.appendChild(div_Contenedordescripcionpaises)
+
+            
+                
+
+        document.body.appendChild(div_divisionExternaImagenResto)
+
+        var div_Contenedoriconos=document.createElement("div")
+        div_Contenedoriconos.setAttribute("class","Contenedoriconos")
+
+            var div_icono1=document.createElement("div")
+            div_icono1.setAttribute("class","iconos")
+
+            var div_icono2=document.createElement("div")
+            div_icono2.setAttribute("class","iconos")
+
+                var div_imgicono2=document.createElement("img")
+                div_imgicono2.src="./recurso/iconocohete.png"
+                div_imgicono2.alt="icono"
+            
+            div_icono2.appendChild(div_imgicono2)
+
+            var div_icono3=document.createElement("div")
+            div_icono3.setAttribute("class","iconos")
+
+                var div_imgicono3=document.createElement("img")
+                div_imgicono3.src="./recurso/iconopalmera.png"
+                div_imgicono3.alt="icono"
+            
+            div_icono3.appendChild(div_imgicono3)
+
+            var div_icono4=document.createElement("div")
+            div_icono4.setAttribute("class","iconos")
+
+                var div_imgicono4=document.createElement("img")
+                div_imgicono4.src="./recurso/iconodelfin.PNG"
+                div_imgicono4.alt="icono"
+            
+            div_icono4.appendChild(div_imgicono4)
+            
+            var div_icono5=document.createElement("div")
+            div_icono5.setAttribute("class","iconos")
+
+                var div_imgicono5=document.createElement("img")
+                div_imgicono5.src="./recurso/iconocohete.png"
+                div_imgicono5.alt="icono"
+            
+            div_icono5.appendChild(div_imgicono5)
+
+            var div_icono6=document.createElement("div")
+            div_icono6.setAttribute("class","iconos")
+
+                var div_imgicono6=document.createElement("img")
+                div_imgicono6.src="./recurso/iconopalmera.png"
+                div_imgicono6.alt="icono"
+            
+            div_icono6.appendChild(div_imgicono6)
+
+            var div_icono7=document.createElement("div")
+            div_icono7.setAttribute("class","iconos")
+
+                var div_imgicono7=document.createElement("img")
+                div_imgicono7.src="./recurso/iconodelfin.PNG"
+                div_imgicono7.alt="icono"
+            
+            div_icono7.appendChild(div_imgicono7)
+
+            var div_icono8=document.createElement("div")
+            div_icono8.setAttribute("class","iconos")
+
+        div_Contenedoriconos.appendChild(div_icono1)
+        div_Contenedoriconos.appendChild(div_icono2)
+        div_Contenedoriconos.appendChild(div_icono3)
+        div_Contenedoriconos.appendChild(div_icono4)
+        div_Contenedoriconos.appendChild(div_icono5)
+        div_Contenedoriconos.appendChild(div_icono6)
+        div_Contenedoriconos.appendChild(div_icono7)
+        div_Contenedoriconos.appendChild(div_icono8)
+
+        document.body.appendChild(div_Contenedoriconos)
+
+        var div_footer=document.createElement("div")
+        div_footer.setAttribute("class","footer")
+
+            var div_DisionlogoAvionTextofooter=document.createElement("div")
+            div_DisionlogoAvionTextofooter.setAttribute("class","DisionlogoAvionTextofooter")
+                
+                var div_contenedoravion=document.createElement("div")
+                div_contenedoravion.setAttribute("class","contenedoravion")
+                var div_imagenavion=document.createElement("img")
+                div_imagenavion.setAttribute("class","imagenavion")
+                div_imagenavion.src="./recurso/imgavion.png"
+                div_contenedoravion.appendChild(div_imagenavion)
+
+                var div_=document.createElement("div")
+
+                    var strong_nombreA=document.createElement("strong")
+                    strong_nombreA.setAttribute("class","NombreAgencia")
+                    strong_nombreA.appendChild(document.createTextNode("TRAVEL"))
+                    var brna=document.createElement("br")
+                    var small_theBestAgency=document.createElement("small")
+                    small_theBestAgency.appendChild(document.createTextNode("the best agency"))
+
+                
+                div_.appendChild(strong_nombreA)
+                div_.appendChild(brna)
+                div_.appendChild(small_theBestAgency)
+            
+            div_DisionlogoAvionTextofooter.appendChild(div_contenedoravion)
+            div_DisionlogoAvionTextofooter.appendChild(div_)
+
+            var div__=document.createElement("div")
+
+                var div_copy=document.createElement("p")
+                div_copy.setAttribute("class","Copyright")
+                div_copy.appendChild(document.createTextNode("Copyright O 2084"))
+                var div_copy_small=document.createElement("small")
+                div_copy_small.setAttribute("class","Copyrightcolor")
+                div_copy_small.appendChild(document.createTextNode("Company Name"))
+                div_copy.appendChild(div_copy_small)
+                div_copy.appendChild(document.createTextNode("-"))
+                var div_copy_small2=document.createElement("small")
+                div_copy_small2.setAttribute("class","Copyrightcolor")
+                div_copy_small2.appendChild(document.createTextNode("Travel by templatemo"))
+                div_copy.appendChild(div_copy_small2)
+
+            div__.appendChild(div_copy)
+
+            var div___=document.createElement("div")
+            var img_redes=document.createElement("img")
+            img_redes.src="./recurso/redessociales.PNG"
+            div___.appendChild(img_redes)
+
+        div_footer.appendChild(div_DisionlogoAvionTextofooter)
+        div_footer.appendChild(div__)
+        div_footer.appendChild(div___)
+
+        document.body.appendChild(div_footer)
+
+    </script>
 </body>
 </html>
